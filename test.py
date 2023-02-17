@@ -9,7 +9,7 @@ MAX_COUNTER: int = 20
 
 offset: int = -2
 counter: int = 0
-chat_response: requests.Response
+chat_response: requests.Responseаш
 cat_link: str
 
 
