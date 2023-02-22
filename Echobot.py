@@ -28,6 +28,5 @@ async def process_help_command(message: Message):
 async def send_echo(message: Message):
     await message.reply(text=message.text)
 
-if __name__ == '__main__':
-    dp.run_polling(bot)
+cdcdcd = 4
 
