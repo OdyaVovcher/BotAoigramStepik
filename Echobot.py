@@ -1,3 +1,4 @@
+#25.02.2023
 #Echobot 7.1
 from aiogram import Bot, Dispatcher
 from aiogram.filters import Command
