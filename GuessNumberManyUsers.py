@@ -117,7 +117,7 @@ async def process_number_answer(message: Message):
     else:
         await message.answer('Мы еще не играем. Хотите сыграть?')
         
-dp.message()
+@dp.message()
 async def process_other_text_answer(message: Message):
     if users[message.from_user.id]['in_game']:
         await message.answer('Мы же сейчас с вами играем. '
