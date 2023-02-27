@@ -8,7 +8,7 @@ from aiogram.types import Message
 from aiogram.filters import Text, Command
 
 
-BOT_TOKEN: str = 'BOT TOKEN HERE'
+BOT_TOKEN: str = '6245446770:AAFJ2ULztGn22ur_tFE4I2Lc-jj2xDoQ5tk'
 
 
 
