@@ -38,7 +38,6 @@ async def send_echo(message: Message):
 
 dp.message.register(process_start_command, Command(commands=["start"]))
 dp.message.register(process_help_command, Command(commands=['help']))
-dp.message.register(send_photo_echo, F.photo)
 dp.message.register(send_echo)
 
 
